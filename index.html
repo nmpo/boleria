@@ -13,64 +13,75 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="about-container">
-            <div id="brand">
-                <img src="img/logo-vazada.png" alt="Kaseirinhos" />
-                <h1>Boleria Caseira - Kaseirinhos</h1>
-            </div>
-            <h2>Amor e carinho em forma de bolinho</h2>
-            <hr />
-            <p id="date">Funcionamento: 08h00 às 18h00 | Faça sua encomenda!</p>
-            <p id="description">
-                Bolos caseiros com preços incomparáveis e feitos com carinho. Temos diversos sabores e combinações que podem ser encomendadas no nosso número.
-            </p>
-            <hr />
-            <h4>Cardápio</h4>
-            <div id="items-menu">
-                <div class="item-card">
-                    <img src="img/item1.jpg" alt="Bolo-Tradicional" />
-                    <p class="item-name">Bolo Tradicional</p>
-                    <p class="item-description">Receita tradicional que combina com a hora do café.</p>
+        <!-- inserir um navbar
+        <nav>
+            <ul id="topMenu">
+                <li>Boleria Caseira - Kaseirinhas</li>
+                <li class="topMenurigth">Quem somos</li>
+                <li class="topMenurigth">Cardápio</li>
+            </ul>
+        </nav>
+        -->
+        <div>
+            <div id="about-container">
+                <div id="brand">
+                    <img src="img/logo-vazada.png" alt="Kaseirinhos" />
+                    <h1>Boleria Caseira - Kaseirinhos</h1>
                 </div>
-                <div class="item-card">
-                    <img src="img/item2.jpg" alt="Bolo-Cake" />
-                    <p class="item-name">Bolo de Morango</p>
-                    <p class="item-description">Para quem gosta de um bolo confeitado e saboroso.</p>
-                </div>
-                <div class="item-card">
-                    <img src="img/item3.jpg" alt="Bolo-Mesclado" />
-                    <p class="item-name">Bolo Mesclado</p>
-                    <p class="item-description">Delicioso bolo de ovos mesclado com chocolate.</p>
-                </div>
-                <div class="item-card">
-                    <img src="img/item4.jpg" alt="Bolo-Chocolate" />
-                    <p class="item-name">Bolo Chocolate</p>
-                    <p class="item-description">Bolo maravilhoso para quem é fã de chocolate.</p>
-                </div>
-            </div>
-        </div>
-        <div id="form-container">
-            <div id="form-inner">
-                <h3>Cadastre-se</h3>
-                <p>
-                    Faça seu cadastro e não perca a oportunidade de pedir um de nossos deleciosos bolos caseiros
+                <h2>Amor e carinho em forma de bolinho</h2>
+                <hr />
+                <p id="date">Funcionamento: 08h00 às 18h00 | Faça sua encomenda!</p>
+                <p id="description">
+                    Bolos caseiros com preços incomparáveis e feitos com carinho. Temos diversos sabores e combinações que podem ser encomendadas no nosso número.
                 </p>
-                <form id="register-form">
-                    <div id="name-container">
-                        <input type="text" name="name" id="name" placeholder="Nome" />
-                        <input type="text" name="lastname" id="lastname" placeholder="Sobreome" />
+                <hr />
+                <h4>Cardápio</h4>
+                <div id="items-menu">
+                    <div class="item-card">
+                        <img src="img/item1.jpg" alt="Bolo-Tradicional" />
+                        <p class="item-name">Bolo Tradicional</p>
+                        <p class="item-description">Receita tradicional que combina com a hora do café.</p>
                     </div>
-                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" />
-                    <input type="submit" value="Cadastrar" />
-                </form>
-                <div id="benefits">
-                    <h4>Benefícios fidelidade</h4>
-                    <ul>
-                        <li>Entrega grátis.</li>
-                        <li>Cada 10 pedidos, 1 tradicional grátis.</li>
-                        <li>Combine sabores e coberturas.</li>
-                        <li>Brindes surpresas.</li>
-                    </ul>
+                    <div class="item-card">
+                        <img src="img/item2.jpg" alt="Bolo-Cake" />
+                        <p class="item-name">Bolo de Morango</p>
+                        <p class="item-description">Para quem gosta de um bolo confeitado e saboroso.</p>
+                    </div>
+                    <div class="item-card">
+                        <img src="img/item3.jpg" alt="Bolo-Mesclado" />
+                        <p class="item-name">Bolo Mesclado</p>
+                        <p class="item-description">Delicioso bolo de ovos mesclado com chocolate.</p>
+                    </div>
+                    <div class="item-card">
+                        <img src="img/item4.jpg" alt="Bolo-Chocolate" />
+                        <p class="item-name">Bolo Chocolate</p>
+                        <p class="item-description">Bolo maravilhoso para quem é fã de chocolate.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="form-container">
+                <div id="form-inner">
+                    <h3>Cadastre-se</h3>
+                    <p>
+                        Faça seu cadastro e não perca a oportunidade de pedir um de nossos deleciosos bolos caseiros
+                    </p>
+                    <form id="register-form">
+                        <div id="name-container">
+                            <input type="text" name="name" id="name" placeholder="Nome" />
+                            <input type="text" name="lastname" id="lastname" placeholder="Sobreome" />
+                        </div>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" />
+                        <input type="submit" value="Cadastrar" />
+                    </form>
+                    <div id="benefits">
+                        <h4>Benefícios fidelidade</h4>
+                        <ul>
+                            <li>Entrega grátis.</li>
+                            <li>Cada 10 pedidos, 1 tradicional grátis.</li>
+                            <li>Combine sabores e coberturas.</li>
+                            <li>Brindes surpresas.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
